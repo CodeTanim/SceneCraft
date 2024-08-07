@@ -11,7 +11,15 @@ Photogrammetry is the method of extracting 3D information from 2D photos. This p
 
 ### COLMAP
 
-COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface. It offers a wide range of features for reconstruction of ordered and unordered image collections. It uses multiple images of an object or scene to create a detailed 3D model. Through COLMAP, we can extract the intrinsic parameters of all reconstructed cameras, and poses and key points of all reconstructed images in the dataset.
-
+COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface. It offers a wide range of features for reconstruction of ordered and unordered image collections. It uses multiple images of an object or scene to create a detailed 3D model. Through COLMAP, we can extract the intrinsic parameters of all reconstructed cameras, and poses and key points of all reconstructed images in the dataset. This tool is crucial for creating accurate 3D models from multiple images, which is the main crux of our project.
 
 ![Colmap Image](readme_images/COLMAP.png)
+
+COLMAP provides an automatic reconstruction tool that processes a folder of input images to produce a sparse reconstruction in a designated workspace folder. After running the tool, the workspace will contain the necessary files, which we then convert to a suitable format (transforms.json) for NeRF.
+
+![Colmap Image](readme_images/COLMAP2.png)
+
+
+
+
+
