@@ -10,3 +10,4 @@ The problem of generating 3D views from unstructured sets of 2D images is a long
 COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface. It offers a wide range of features for reconstruction of ordered and unordered image collections. It uses multiple images of an object or scene to create a detailed 3D model. Through COLMAP, we can extract the intrinsic parameters of all reconstructed cameras, and poses and key points of all reconstructed images in the dataset.
 
 
+![Colmap Image](readme_images/COLMAP.png)
