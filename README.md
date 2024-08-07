@@ -21,6 +21,8 @@ COLMAP provides an automatic reconstruction tool that processes a folder of inpu
   <img src="readme_images/COLMAP2.png" alt="Colmap Image" width="300" height="300">
 </div>
 
+### Neural Radiance Fields (NeRF)
 
+A neural radiance field (NeRF) is a neural network that reconstructs detailed 3D scenes from a few 2D images. Our approach extends traditional multi-view stereo techniques by incorporating a neural network. The process involves pairing images with the camera's intrinsic and extrinsic parameters. We use COLMAP to estimate camera rays, while some synthetic datasets provide ground truth camera parameters. We project the images to world coordinates using these parameters and cast pinhole rays to get the final opacity and RGB values. NeRFs typically use two networks: a coarse network with fewer sampled points for general structure and a fine network for detailed refinement. We combine the parameter counts of both networks for reporting.
 
 
