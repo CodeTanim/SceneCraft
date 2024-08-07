@@ -18,7 +18,7 @@ COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (M
 COLMAP provides an automatic reconstruction tool that processes a folder of input images to produce a sparse reconstruction in a designated workspace folder. After running the tool, the workspace will contain the necessary files, which we then convert to a suitable format (transforms.json) for NeRF.
 
 <div align="center">
-  <img src="readme_images/COLMAP2.png" alt="Colmap Image" width="200" height="250">
+  <img src="readme_images/COLMAP2.png" alt="Colmap Image" width="300" height="300">
 </div>
 
 
